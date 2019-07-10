@@ -1,3 +1,11 @@
-# This file should contain everything to configure the workflow on a global scale.
-# In case of sample based data, it should be complemented by a samples.tsv file that contains
-# one row per sample. It can be parsed easily via pandas.
+# path or URL to sample sheet (TSV format, columns: sample, condition, ...)
+samples: samples_short.tsv
+
+# Folder containing the blast db
+blast_db: "../16SMicrobial_db/16SMicrobial"
+
+# Folder containing the trainee files for seqmatch
+rdp_trainee: "../RDP11/trainee"
+
+#name of the project
+project_name: "PRJNA33175_333"
