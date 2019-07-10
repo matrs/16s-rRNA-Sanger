@@ -1,3 +1,10 @@
+include: "rules/common.smk"
+include: "rules/abi_to_fastq.smk"
+include: "rules/qc.smk"
+include: "rules/merge.smk"
+include: "rules/blast.smk"
+include: "rules/rdp.smk"
+
 rule all:
     input:
         "qc/multiqc.html",
