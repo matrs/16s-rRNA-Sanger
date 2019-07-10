@@ -1,0 +1,6 @@
+channels:$
+  - bioconda$
+  - conda-forge$
+  - defaults
+dependencies:
+    - rdptools =2.0.2

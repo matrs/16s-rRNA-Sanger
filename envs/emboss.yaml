@@ -1,0 +1,6 @@
+channels:$
+  - bioconda$
+  - conda-forge$
+  - defaults$
+dependencies:
+  - emboss =6.6.0
