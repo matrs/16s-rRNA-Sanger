@@ -2,10 +2,10 @@
 samples: samples_short.tsv
 
 # Folder containing the blast db
-blast_db: "../16SMicrobial_db/16SMicrobial"
+blast_db: "../rRNA-16S/16SMicrobial_db/16SMicrobial"
 
 # Folder containing the trainee files for seqmatch
-rdp_trainee: "../RDP11/trainee"
+rdp_trainee: "../rRNA-16S/RDP11/trainee"
 
 #name of the project
 project_name: "PRJNA33175_333"
