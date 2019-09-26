@@ -1,10 +1,8 @@
 # Snakemake workflow: 16s-rRNA-Sanger
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥5.5.2-brightgreen.svg)](https://snakemake.bitbucket.io)
-[![Build Status](https://travis-ci.org/snakemake-workflows/16s-rRNA-Sanger.svg?branch=master)](https://travis-ci.org/snakemake-workflows/16s-rRNA-Sanger)
 
-This is the template for a new Snakemake workflow. Replace this text with a comprehensive description covering the purpose and domain.
-Insert your code into the respective folders, i.e. `scripts`, `rules`, and `envs`. Define the entry point of the workflow in the `Snakefile` and the main configuration in the `config.yaml` file.
+This pipeline implements an analysis for bacterial 16S rRNA produced by Sanger sequencing reads. It trims reads, merge them and generates a genus list using `blast` and `classifier classify` from the RDP project. Also, it has quality control steps and summarize them pre and post trimming using `multiqc`. See the picture of the DAG at the end of this document for more details.
 
 ## Authors
 
