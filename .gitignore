@@ -6,7 +6,7 @@
 scripts/.snakemake*
 !Snakefile
 !config.yaml
-!samples.tsv
+!samples_short.tsv
 !resources
 !resources/*
 !envs
@@ -22,3 +22,4 @@ scripts/.snakemake*
 !.travis.yml
 !.test
 !snake_wrapper.sh
+
